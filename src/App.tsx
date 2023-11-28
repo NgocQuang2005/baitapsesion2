@@ -30,7 +30,7 @@ function App() {
       <ButtonV2  name='Thêm vào giỏ hàng'  icon={<BsCart4 />}/>
       <ButtonV2 name='Gọi tư vẫn' className='btn_dark' icon={<BsFillTelephoneFill />}/> <hr />
       <p style={{color:'blue'}}>Bài 3:</p>
-      <SingleProduct thumb='https://ecshopvietnam.com/ecshopmi/cdn/images/202204/thumb_img/cap-chuyen-doi-usb-c-sang-sd-thumb-G4316-1649993135646.png' promoPrice={1530000} name='Cáp chuyển đổi USB-C sang SD' price={1790000} />
+      <SingleProduct thumb='https://ecshopvietnam.com/ecshopmi/cdn/images/202204/thumb_img/cap-chuyen-doi-usb-c-sang-sd-thumb-G4316-1649993135646.png' promoPrice={1440000} name='Cáp chuyển đổi USB-C sang SD' price={1790000} />
       <hr />
       <p style={{color:'blue'}}>Bài 4:</p>
       <img src="https://img.lovepik.com/photo/50054/5973.jpg_wh860.jpg" alt="" width={350} height={220}/>
