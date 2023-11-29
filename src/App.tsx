@@ -12,6 +12,8 @@ import { BsCaretRightFill } from "react-icons/bs";
 import AttributesColor from './components/B5React';
 import Bai7 from './components/Bai7React';
 import Bai8 from './components/B8React';
+import FormStyle from './components/baitapSS3/formStyles';
+import B2Session3 from './components/Bai2SS3';
 function App() {
   // const [count, setCount] = useState(0)
   // rafce : tạo dòng code nhan
@@ -45,6 +47,13 @@ function App() {
       <hr />
       <p style={{color:'blue'}}>Bài 7:</p>
       <Bai8 />
+      <hr /> 
+      <h1 style={{color:'#804040'}}>Bài tập Session3</h1>
+      <h4><u>Bài 1:</u></h4>
+      <FormStyle/>
+      <hr />
+      <h4><u>Bài 2:</u></h4>
+      <B2Session3/>
     </>
   )
 }
