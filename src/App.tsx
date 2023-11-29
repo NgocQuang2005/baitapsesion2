@@ -10,13 +10,8 @@ import { BsCheck2Square } from "react-icons/bs";
 import Indam4 from './components/B4React';
 import { BsCaretRightFill } from "react-icons/bs";
 import AttributesColor from './components/B5React';
-
 import Bai7 from './components/Bai7React';
 import Bai8 from './components/B8React';
-
-
-
-
 function App() {
   // const [count, setCount] = useState(0)
   // rafce : tạo dòng code nhan
@@ -51,7 +46,6 @@ function App() {
       <p style={{color:'blue'}}>Bài 7:</p>
       <Bai8 />
     </>
-    
   )
 }
 export default App
