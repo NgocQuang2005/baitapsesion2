@@ -16,7 +16,7 @@ function FormStyle() {
         <ContentForm productName="Casual Note Bag" linksp="https://cdn.vuanhwatch.com/media/products/tui-xach/37351/tui-xach-gucci-ophidia-handbag-small-mau-nau-6374423666773-16112022085150.jpg" price='37.00' rating={3}/>
       </div>
       <div style={{width:'30%'}}>
-        <h3> TOP RATECD PRODUCTS</h3>
+        <h3> LATEST PRODUCTS</h3>
         <ContentForm productName="Ultimate 3D bluetooth ..." linksp="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQSkvISd1KL1O6bG6CTGbujGn_h-WmUOoF-RG7U1fGZAdT9lYvbU-vXFsYDQFIeWMHWbI&usqp=CAU" price='49.00' rating={5}/>
         <ContentForm productName="Brown-White Men Casu ..." linksp="https://salt.tikicdn.com/cache/w400/ts/product/a5/2a/ab/777ccf634048780060aeeaf10b9dad9b.jpg" price='25.00' rating={2}/>
         <ContentForm productName="Beautiful men's glasses" linksp="https://product.hstatic.net/1000269337/product/side-326_4db4234d73704c42b1d73a86adaabd83_master.jpg" price='35.00' rating={4}/>
