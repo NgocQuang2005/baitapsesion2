@@ -15,6 +15,8 @@ import Bai8 from './components/B8React';
 import FormStyle from './components/baitapSS3/formStyles';
 import B2Session3 from './components/Bai2SS3';
 import ColorPicker from './components/Bai1SS5/clickMau';
+import Slide from './components/Bai2SS5';
+
 function App() {
   // const [count, setCount] = useState(0)
   // rafce : tạo dòng code nhan
@@ -59,6 +61,9 @@ function App() {
       <h1 style={{color:'#804040'}}>Bài tập Session5</h1>
       <h4><u>Bài 1:</u></h4>
       <ColorPicker/>
+      <hr />
+      <h4><u>Bài 2:</u></h4>
+      <Slide/>
     </>
   )
 }
