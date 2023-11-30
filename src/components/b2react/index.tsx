@@ -14,9 +14,9 @@ const SingleProduct = ({name, thumb, price, promoPrice=0}: IProduct) => {
         <h3>{name}</h3>
         <div>
             {
-                promoPrice > 0 ? (
+                promoPrice  > 0 ? (
                     <>
-                        <strong style={{color:'red'}}>{promoPrice}</strong>
+                        <strong style={{color:'red', marginRight:3}}>{promoPrice}</strong>
                         <del>{price}</del>
                     </>
                 )
@@ -28,7 +28,7 @@ const SingleProduct = ({name, thumb, price, promoPrice=0}: IProduct) => {
             {
                 (promoPrice != price) ? (
                     <>
-                       <div style={{position:"absolute",top:0,right:0,background:"orange",padding:"3px 5px",borderRadius:5}}>{(100-Math.round(promoPrice*100/price))} %</div>
+                       <div style={{position:"absolute",top:0,right:0,background:"#FF8080",padding:"3px 5px",borderRadius:5}}>{(100-Math.round(promoPrice*100/price))} %</div>
                     </>
                 ):("")
             }
