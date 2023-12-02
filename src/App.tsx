@@ -16,6 +16,7 @@ import FormStyle from './components/baitapSS3/formStyles';
 import B2Session3 from './components/Bai2SS3';
 import ColorPicker from './components/Bai1SS5/clickMau';
 import Slide from './components/Bai2SS5';
+import Attributesa from './components/attributes';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -64,6 +65,8 @@ function App() {
       <hr />
       <h4><u>Bài 2:</u></h4>
       <Slide/>
+      <hr />
+      <Attributesa/>
     </>
   )
 }

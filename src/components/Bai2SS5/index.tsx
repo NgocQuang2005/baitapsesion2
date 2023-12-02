@@ -26,7 +26,7 @@ const Slide = () => {
   return (
     <div>
       <div>
-        <img src={images[currentImage]} alt={`Image ${currentImage + 1}`} style={{ width: '100%' }} />
+        <img src={images[currentImage]} alt={`Image ${currentImage + 1}`} style={{ width: '60%' }} />
       </div>
       <div>
         <button onClick={handlePrevious}>Previous</button>
