@@ -64,6 +64,7 @@ function App() {
       <ColorPicker/>
       <hr />
       <h4><u>Bài 2:</u></h4>
+      
       <Slide/>
       <hr />
       <Attributesa/>
