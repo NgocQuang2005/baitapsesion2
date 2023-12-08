@@ -23,6 +23,7 @@ function App() {
   // rafce : tạo dòng code nhan
   return (
     <>
+      
       <p style={{color:'blue'}}>Bài 1:</p>
       <PolicyX icon={<BsCheck2Square />} title= 'Bộ sản phẩm' desc='hộp, sách hưỡng dẫn, cáp, cây lấy sim'/>
       <PolicyX icon={<BsCheck2Square />} title='Bảo hành' desc='chính hãng 12 tháng'/>
